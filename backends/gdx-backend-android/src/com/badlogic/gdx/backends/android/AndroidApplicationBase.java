@@ -74,7 +74,7 @@ public interface AndroidApplicationBase extends Application {
 	/** Returns the {@link LifecycleListener} array associated with this {@link AndroidApplicationBase}
 	 * 
 	 * @return the array of {@link LifecycleListener}'s */
-	SnapshotArray<LifecycleListener> getLifecycleListeners ();
+	Array<LifecycleListener> getLifecycleListeners ();
 
 	/** Returns the Window associated with the application
 	 * @return The {@link Window} associated with the application */
